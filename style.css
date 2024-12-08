@@ -1,0 +1,97 @@
+
+  body {
+    background-color: #e7e5d3 !important;
+    color: #333;
+  }
+
+  .logo img {
+    width: 40%;
+    border: 3px solid #333;
+    border-radius: 65%;
+  }
+
+  .sized-box {
+    background-color: #ffe8cc;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 4vw;
+    color: #333;
+    padding: 4% 2%;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: #ffdd00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .navbar li {
+    width: 100%;
+  }
+
+  .navbar a {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #000000;
+    padding: 4% 0;
+    background-color: #ffeb3b; 
+    border-radius: 0;
+    margin: 0;
+    text-align: center;
+    
+  }
+
+  .navbar a:hover {
+    background-color: #f4df27;
+   
+    border-radius: 0;
+  }
+
+  .catalogo-cornetti {
+    background-color: #ffebcd;
+    padding: 5% 2%;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .catalogo-cornetti img {
+    width: 100%;
+    border-radius: 6%;
+    border: 2px solid #333;
+    margin: 2% 0;
+  }
+
+  .catalogo-cornetti h2 {
+    color: #333;
+    font-size: 5vw;
+    margin-bottom: 3%;
+  }
+
+  .catalogo-cornetti p {
+    color: #333;
+    font-size: 5vw;
+  }
+  .div{
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    font-size: 80%;
+  }
+  #carousel .carousel-inner {
+    position: relative;
+    width: 100%;
+  
+  }
+

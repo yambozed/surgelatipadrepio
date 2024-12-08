@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cornetti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body >
+    <div class="div">Surgelati Padre Pio <br>
+        Di Pietro di Roma <br>
+        Via Guerrieri 61 Foggia <br>
+        Tel 3661346710<br></div>
+    <div class="logo">
+        <img src="../logo.jpg" />
+    </div>
+
+    <div class="sized-box">
+        Ciao e benvenuto! Sfoglia il nostro catalogo e scopri le prelibatezze che prepariamo con amore.
+    </div>
+<br>
+
+    <div class="d-flex justify-content-center">
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" style="width: 50%;">
+        
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <video class="d-block w-100" autoplay muted>
+              <source src="../Videos/Video1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+          <div class="carousel-item" >
+              <video class="d-block w-100" autoplay muted >
+                  <source src="../Videos/Video2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+          <div class="carousel-item">
+              <video class="d-block w-100" autoplay muted>
+                  <source src="../Videos/Video3.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+          <div class="carousel-item">
+            <video class="d-block w-100" autoplay muted>
+                <source src="../Videos/Video4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="carousel-item">
+            <video class="d-block w-100" autoplay muted >
+              <source src="../Videos/Video5.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+      </div>
+     
+          
+      
+  </div>
+</div>
+
+
+</body>
+    
+
+    <br />
+    <div class="navbar">
+        <ul>
+            <a href="Rusticheria.html" style="background-color: #004d40">Rusticheria</a>
+           <a href="../Pasticceria/Pasticceria.html">Pasticceria</a>
+            <a href="../index.html">Prima colazione</a>
+            
+        </ul>
+    </div>
+
+    <section class="catalogo-rusticheria">
+        <h2>Rusticheria Gustosa</h2>
+        <p>
+            Scopri la nostra selezione di rustici, ideali per uno spuntino sfizioso o un pranzo veloce. Offriamo una varietà di opzioni per soddisfare tutti i gusti!
+        </p>
+    </section>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici15.jpg" class="img-fluid" alt="Rustici15"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici1.jpg" class="img-fluid" alt="Rustici1"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici2.jpg" class="img-fluid" alt="Rustici2"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici3.jpg" class="img-fluid" alt="Rustici3"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici4.jpg" class="img-fluid" alt="Rustici4"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici5.jpg" class="img-fluid" alt="Rustici5"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici6.jpg" class="img-fluid" alt="Rustici6"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici7.jpg" class="img-fluid" alt="Rustici7"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici8.jpg" class="img-fluid" alt="Rustici8"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici9.jpg" class="img-fluid" alt="Rustici9"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici10.jpg" class="img-fluid" alt="Rustici10"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici11.jpg" class="img-fluid" alt="Rustici11"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici12.jpg" class="img-fluid" alt="Rustici12"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici13.jpg" class="img-fluid" alt="Rustici13"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici14.jpg" class="img-fluid" alt="Rustici14"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici16.jpg" class="img-fluid" alt="Rustici14"></div>
+    <div class="col-md-2"><img src="../Rusticheria/Rustici/Rustici17.jpg" class="img-fluid" alt="Rustici14"></div>
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        var myCarousel = document.querySelector('#carousel');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 2000,
+            ride: 'carousel'
+        });
+      </script>
+</body>
+</html>

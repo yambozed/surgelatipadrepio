@@ -1,0 +1,94 @@
+
+  body {
+    background-color: #ffe6f2 !important;
+    color: #4a0032;
+  }
+
+  .logo img {
+    width: 40%;
+    border: 3px solid #4a0032;
+    border-radius: 50%;
+  }
+
+  .sized-box {
+    background-color: #f8bbd0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 4vw;
+    color: #4a0032;
+    padding: 4% 2%;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: #f48fb1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .navbar li {
+    width: 100%;
+  }
+
+  .navbar a {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #ffffff;
+    padding: 4% 0;
+    background-color: #f06292;
+    border-radius: 0;
+    margin: 0;
+    text-align: center;
+   
+  }
+
+  .navbar a:hover {
+    background-color: #ec437b;
+    color: #ffffff;
+  }
+
+  .catalogo-torte {
+    padding: 5% 2%;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f8bbd0;
+  }
+
+  .catalogo-torte h2 {
+    color: #4a0032;
+    font-size: 5vw;
+    margin-bottom: 3%;
+  }
+
+  .catalogo-torte p {
+    color: #4a0032;
+    font-size: 5vw;
+  }
+  .div{
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    font-size: 80%;
+  }
+  
+  
+  #carousel .carousel-inner {
+    position: relative;
+    width: 100%;
+
+  }
+  
+  
+  
+
